@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+:root {
+  --primary-color: red;
+  --background: #363737;
+  --text: white;
+}
+
 * {
   margin: 0;
   font-family: "Roboto";
@@ -21,15 +27,21 @@
   margin-left: auto;
 }
 
+
 .navbar a{
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  display: inline-block;
+  transition: border-bottom 0.3s ease-in-out;
   
 }
 
 .navbar a:hover{
-  color: #f1356d;
+  color: red;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid red;
   
 }
 
@@ -49,5 +61,5 @@
 
 #newblog:hover{
   transform: scale(1.1);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out
 }
