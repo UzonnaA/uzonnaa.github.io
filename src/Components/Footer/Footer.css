@@ -1,0 +1,18 @@
+.footer {
+  height: 27.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  background-color: #e6cbcb;
+  background-image: linear-gradient(315deg, #e6cbcb 0%, #faf5f5 50%);
+}
+
+.footer-logo{
+  margin-left: -15px;
+}
+
+.footer__copyright {
+  font-size: 12px;
+}

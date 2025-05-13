@@ -1,0 +1,17 @@
+body {
+  --purple: #fe4040;
+  --dark-gray: #2b2222;
+  --light-gray: #5b5b5b;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+h2 {
+  color: var(--purple);
+  font-family: "Fira Code", monospace;
+  text-decoration: underline;
+  font-size: 60px;
+}

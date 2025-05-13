@@ -1,17 +1,32 @@
-import logo from './logo.svg';
-import Navbar from './navbar';
-import Home from './home';
+import "./App.css";
+import Header from "./Components/NavBar/Header";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Landing from "./Components/LandingPage/Landing";
+import Projects from "./Components/Projects Page/Projects";
+import About from "./Components/About Me Page/About";
+import Contact from "./Components/Contact Me Page/Contact";
+import Footer from "./Components/Footer/Footer";
+import ReactGA from "react-ga";
 
 function App() {
-  const title = "Uzonna Alexander's Website";
-  const likes = 50;
-
+  useEffect(() => {
+    ReactGA.initialize("UA-204992447-1");
+  }, []);
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <div className="content">
-        <Home></Home>
-      </div>
+      <Router>
+        <Switch>
+          <Route path="/">
+            <Header />
+            <Landing />
+            <About />
+            <Projects />
+            <Contact />
+            <Footer />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
