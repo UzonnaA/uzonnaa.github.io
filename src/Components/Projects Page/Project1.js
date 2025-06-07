@@ -14,8 +14,8 @@ function Project1({ id }) {
       <div className="project__main">
         <img
           className="project__image project__specialMobileImage"
-          src="/images/health_fusion_home.png"
-          alt="NES Emulator (Unfinished)"
+          src="/images/search_page.png"
+          alt="Search_Page_Java"
           // This changes how far the title and text will slide in. Less means it slides in more. (Was 15%)
           width="45%"
           height="auto"
@@ -25,16 +25,16 @@ function Project1({ id }) {
           <>
             <img
               className="project__image"
-              src="/images/health_fusion_add.png"
-              alt="Health Fusion Map Page"
+              src="/images/search_page.png"
+              alt="Search_Page_Java"
               width="15%"
               height="auto"
               loading="lazy"
             />
             <img
               className="project__image"
-              src="/images/health_fusion_map.png"
-              alt="Health Fusion Project Add Page"
+              src="/images/stats_page.png"
+              alt="Stats_Page_Java"
               width="15%"
               height="auto"
               loading="lazy"
@@ -43,16 +43,32 @@ function Project1({ id }) {
         )} */}
 
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">NES Emulator</h3>
+          <h3 className="project__title">Job Application Tracker</h3>
           <p className="project__description project__body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis enim beatae officiis recusandae voluptate corrupti, libero harum nam molestiae delectus minima, porro maxime sed consequatur ullam in commodi nemo velit.
+            A <span className="project__specialText">fullstack web app</span> built to simplify the job search. Users can <span className="project__specialText">track applications</span>, update their status, and filter by company or tags. 
+            A <span className="project__specialText">built-in dashboard</span> shows helpful stats, like how many applications are in progress or have been rejected. 
+            Everything is protected by <span className="project__specialText">secure JWT login</span>, 
+            and the clean layout makes it easy to manage and review your progress over time.
+          
+          
           </p>
+
+
+            
           <p className="project__tech project__body">
-            &gt; C++ · Github · Etc
+            &gt; Java · Spring Boot · JUnit ·  PostgreSQL
+          </p>
+
+          <p className="project__tech project__body">
+            &gt; Next.js · TypeScript · Tailwind CSS · Jest
+          </p>
+
+          <p className="project__tech project__body">
+            Deployed on Railway · Render · Vercel
           </p>
           <a
             className="project__sourceCode"
-            href="https://github.com/uzonnaa"
+            href="https://github.com/UzonnaA/job-tracker-fullstack"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"

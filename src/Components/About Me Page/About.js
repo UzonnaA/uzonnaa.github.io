@@ -22,17 +22,21 @@ function About() {
           <br />
           <br />
 
-          Fill 
+            🛠️ I recently built a <span className="about__specialText">job application tracker</span> that helps organize and manage the job hunt in a simple way. 
+            I also created a <span className="about__specialText">3D horror game</span> in C++, where I had fun experimenting with movement, lighting, and gameplay elements.
+
 
           <br /> 
           <br />
 
-          Fill
+          🧪 I'm big on clean architecture, testing, and automation. Right now, 
+          I'm especially focused on <span className="about__specialText">backend development and QA automation</span>, and 
+          I'm learning more about testing frameworks and CI tools to build more reliable systems.
+
           
           <br /> 
           <br />
-          
-          Fill
+          {/* Fill */}
         </p>
         <br />
         <p className="about__body">
@@ -45,9 +49,9 @@ function About() {
       </div>
       <img
         className="about__headshot"
-        src="/images/jack_parsons_headshot.jpg"
+        src="/images/self_image.jpg"
         alt="Brand Logo"
-        width="300"
+        width="375"
         height="300"
       />
       <LightWave />

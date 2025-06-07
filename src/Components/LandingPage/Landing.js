@@ -15,7 +15,7 @@ function Landing() {
       <hr className="landing__hr" />
 
       <div className="landing__bottomText">
-        <h1 className="landing__mainText">Web & Software Developer</h1>
+        <h1 className="landing__mainText">Fullstack Developer & QA Enthusiast</h1>
         <h1 className="landing__mainText"></h1>
       </div>
 
