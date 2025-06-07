@@ -24,28 +24,6 @@ function SocialMediaIcons() {
           size={30}
         />
       </a>
-      {/* <a
-        href="https://www.instagram.com/jack.par/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="my Instagram"
-      >
-        <FaInstagram
-          className="socialMediaIcons__instagram footer__icon"
-          size={30}
-        />
-      </a>
-      <a
-        href="https://twitter.com/jackparsonss"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="my Twitter"
-      >
-        <FaTwitter
-          className="socialMediaIcons__twitter footer__icon"
-          size={30}
-        />
-      </a> */}
       <hr className="socialMediaIcons__rightHr hr" />
     </div>
   );
