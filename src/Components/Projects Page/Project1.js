@@ -45,7 +45,7 @@ function Project1({ id }) {
         <div data-aos="fade-left" className="project__right">
           <h3 className="project__title">Job Application Tracker</h3>
           <p className="project__description project__body">
-            A <span className="project__specialText">fullstack web app</span> built to simplify the job search. Users can <span className="project__specialText">track applications</span>, update their status, and filter by company or tags. 
+            A <span className="project__specialText">full-stack web app</span> built to simplify the job search. Users can <span className="project__specialText">track applications</span>, update their status, and filter by company or tags. 
             A <span className="project__specialText">built-in dashboard</span> shows helpful stats, like how many applications are in progress or have been rejected. 
             Everything is protected by <span className="project__specialText">secure JWT login</span>, 
             and the clean layout makes it easy to manage and review your progress over time.

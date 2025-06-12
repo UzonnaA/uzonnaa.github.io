@@ -3,7 +3,7 @@
 This is the source code for my personal developer portfolio website.
 
 It showcases some of the projects I've worked on, including:
-- 🛠️ Job Application Tracker (fullstack web app)
+- 🛠️ Job Application Tracker (full-stack web app)
 - 🧪 Selenium-Tested Multiplayer Card Game
 - 🚧 Job Market Data Pipeline (Work in Progress)
 
