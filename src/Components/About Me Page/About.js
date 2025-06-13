@@ -22,14 +22,14 @@ function About() {
           <br />
           <br />
 
-            🛠️ I recently built a <span className="about__specialText">job application tracker</span> that helps organize and manage the job hunt in a simple way. 
+            I recently built a <span className="about__specialText">job application tracker</span> that helps organize and manage the job hunt in a simple way. 
             I also created a <span className="about__specialText">3D horror game</span> in C++, where I had fun experimenting with movement, lighting, and gameplay elements.
 
 
           <br /> 
           <br />
 
-          🧪 I'm big on clean architecture, testing, and automation. Right now, 
+          I'm big on clean architecture, testing, and automation. Right now, 
           I'm especially focused on <span className="about__specialText">backend development and QA automation</span>, and 
           I'm learning more about testing frameworks and CI tools to build more reliable systems.
 
